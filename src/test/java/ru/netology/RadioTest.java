@@ -1,7 +1,5 @@
 package ru.netology;
-
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class RadioTest {
@@ -29,7 +27,7 @@ class RadioTest {
     @Test
     public void shouldSetDefaultStation() {
         radio.setCurrentStation(11);
-        assertEquals(10, radio.getDefaultStation());
+        assertEquals(10, radio.getDefaultStations());
     }
 
     @Test
