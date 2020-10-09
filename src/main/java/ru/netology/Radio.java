@@ -22,10 +22,6 @@ public class Radio {
         this.maxStation = maxStation;
     }
 
-    public void setMaxStation(int maxStation) {
-        this.maxStation = maxStation;
-    }
-
     public void setCurrentStation(int currentStation) {
         if (currentStation > maxStation) {
             return;
